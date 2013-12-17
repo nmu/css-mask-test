@@ -12611,9 +12611,13 @@
     <i class='maskicon-alpha sprite-briefcase'></i>
     <i class='maskicon-alpha sprite-fullscreen'></i>
     <script>
-      setTimeout(function(){
-          stressTest.bookmarklet();
-      }, 4000)
+      if (window.location.href.match(/test\=/)) {
+      
+        setTimeout(function(){
+            stressTest.bookmarklet();
+        }, 4000)
+      
+      }
     </script>
   </body>
 </html>

@@ -19,6 +19,10 @@
           %i{class: [c[1], sprite]}
 
     :javascript
-      setTimeout(function(){
-          stressTest.bookmarklet();
-      }, 4000)
+      if (window.location.href.match(/test\=/)) {
+
+        setTimeout(function(){
+            stressTest.bookmarklet();
+        }, 4000)
+      
+      }
