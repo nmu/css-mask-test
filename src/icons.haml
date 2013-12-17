@@ -1,0 +1,24 @@
+!!! 5
+%html{lang: "en"}
+  %head
+    %meta{charset: "utf-8"}
+    %title CSS Mask test
+
+    %link{rel: :stylesheet, href: 'icons.css', type: 'text/css', media: :screen, charset: 'utf-8'}
+    %script{type: 'text/javascript', src: 'stressTest.js'}
+
+  %body
+    - sprites = ["sprite-glass","sprite-music","sprite-search","sprite-envelope","sprite-heart","sprite-star","sprite-star-empty","sprite-user","sprite-film","sprite-th-large","sprite-th","sprite-th-list","sprite-ok","sprite-remove","sprite-zoom-in","sprite-zoom-out","sprite-off","sprite-signal","sprite-cog","sprite-trash","sprite-home","sprite-file","sprite-time","sprite-road","sprite-download-alt","sprite-download","sprite-upload","sprite-inbox","sprite-play-circle","sprite-repeat","sprite-refresh","sprite-list-alt","sprite-lock","sprite-flag","sprite-headphones","sprite-volume-off","sprite-volume-down","sprite-volume-up","sprite-qrcode","sprite-barcode","sprite-tag","sprite-tags","sprite-book","sprite-bookmark","sprite-print","sprite-camera","sprite-font","sprite-bold","sprite-italic","sprite-text-height","sprite-text-width","sprite-align-left","sprite-align-center","sprite-align-right","sprite-align-justify","sprite-list","sprite-indent-left","sprite-indent-right","sprite-facetime-video","sprite-picture","sprite-pencil","sprite-map-marker","sprite-adjust","sprite-tint","sprite-edit","sprite-share","sprite-check","sprite-move","sprite-step-backward","sprite-fast-backward","sprite-backward","sprite-play","sprite-pause","sprite-stop","sprite-forward","sprite-fast-forward","sprite-step-forward","sprite-eject","sprite-chevron-left","sprite-chevron-right","sprite-plus-sign","sprite-minus-sign","sprite-remove-sign","sprite-ok-sign","sprite-question-sign","sprite-info-sign","sprite-screenshot","sprite-remove-circle","sprite-ok-circle","sprite-ban-circle","sprite-arrow-left","sprite-arrow-right","sprite-arrow-up","sprite-arrow-down","sprite-share-alt","sprite-resize-full","sprite-resize-small","sprite-plus","sprite-minus","sprite-asterisk","sprite-exclamation-sign","sprite-gift","sprite-leaf","sprite-fire","sprite-eye-open","sprite-eye-close","sprite-warning-sign","sprite-plane","sprite-calendar","sprite-random","sprite-comment","sprite-magnet","sprite-chevron-up","sprite-chevron-down","sprite-retweet","sprite-shopping-cart","sprite-folder-close","sprite-folder-open","sprite-resize-vertical","sprite-resize-horizontal","sprite-hdd","sprite-bullhorn","sprite-bell","sprite-certificate","sprite-thumbs-up","sprite-thumbs-down","sprite-hand-right","sprite-hand-left","sprite-hand-up","sprite-hand-down","sprite-circle-arrow-right","sprite-circle-arrow-left","sprite-circle-arrow-up","sprite-circle-arrow-down","sprite-globe","sprite-wrench","sprite-tasks","sprite-filter","sprite-briefcase","sprite-fullscreen"]
+
+    - cases = {'Background Sprite' => 'icon', 'Masked' => 'maskicon', 'Masked + RGBA' => 'maskicon-alpha'}
+
+    - cases.each do |c|
+      %h1=c[0]
+      - 30.times do |i|
+        - sprites.each do |sprite|
+          %i{class: [c[1], sprite]}
+
+    :javascript
+      setTimeout(function(){
+          stressTest.bookmarklet();
+      }, 4000)

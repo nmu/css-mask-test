@@ -1,0 +1,876 @@
+.maskicon,
+.maskicon-alpha,
+.icon {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  line-height: 14px;
+  vertical-align: text-top;
+  margin-top: 1px; }
+
+.maskicon,
+.maskicon-alpha {
+  -webkit-mask-image: url("http://getbootstrap.com/2.3.2/assets/img/glyphicons-halflings.png");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: 0 0px;
+}
+
+.maskicon {
+  background-color: green; 
+}
+
+.maskicon-alpha {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.icon {
+  background-image: url("http://getbootstrap.com/2.3.2/assets/img/glyphicons-halflings.png");
+  background-repeat: no-repeat;
+  background-position: 0 0px; }
+
+.icon.sprite-glass {
+  background-position: 0      0; }
+
+.icon.sprite-music {
+  background-position: -24px 0; }
+
+.icon.sprite-search {
+  background-position: -48px 0; }
+
+.icon.sprite-envelope {
+  background-position: -72px 0; }
+
+.icon.sprite-heart {
+  background-position: -96px 0; }
+
+.icon.sprite-star {
+  background-position: -120px 0; }
+
+.icon.sprite-star-empty {
+  background-position: -144px 0; }
+
+.icon.sprite-user {
+  background-position: -168px 0; }
+
+.icon.sprite-film {
+  background-position: -192px 0; }
+
+.icon.sprite-th-large {
+  background-position: -216px 0; }
+
+.icon.sprite-th {
+  background-position: -240px 0; }
+
+.icon.sprite-th-list {
+  background-position: -264px 0; }
+
+.icon.sprite-ok {
+  background-position: -288px 0; }
+
+.icon.sprite-remove {
+  background-position: -312px 0; }
+
+.icon.sprite-zoom-in {
+  background-position: -336px 0; }
+
+.icon.sprite-zoom-out {
+  background-position: -360px 0; }
+
+.icon.sprite-off {
+  background-position: -384px 0; }
+
+.icon.sprite-signal {
+  background-position: -408px 0; }
+
+.icon.sprite-cog {
+  background-position: -432px 0; }
+
+.icon.sprite-trash {
+  background-position: -456px 0; }
+
+.icon.sprite-home {
+  background-position: 0 -24px; }
+
+.icon.sprite-file {
+  background-position: -24px -24px; }
+
+.icon.sprite-time {
+  background-position: -48px -24px; }
+
+.icon.sprite-road {
+  background-position: -72px -24px; }
+
+.icon.sprite-download-alt {
+  background-position: -96px -24px; }
+
+.icon.sprite-download {
+  background-position: -120px -24px; }
+
+.icon.sprite-upload {
+  background-position: -144px -24px; }
+
+.icon.sprite-inbox {
+  background-position: -168px -24px; }
+
+.icon.sprite-play-circle {
+  background-position: -192px -24px; }
+
+.icon.sprite-repeat {
+  background-position: -216px -24px; }
+
+.icon.sprite-refresh {
+  background-position: -240px -24px; }
+
+.icon.sprite-list-alt {
+  background-position: -264px -24px; }
+
+.icon.sprite-lock {
+  background-position: -287px -24px; }
+
+.icon.sprite-flag {
+  background-position: -312px -24px; }
+
+.icon.sprite-headphones {
+  background-position: -336px -24px; }
+
+.icon.sprite-volume-off {
+  background-position: -360px -24px; }
+
+.icon.sprite-volume-down {
+  background-position: -384px -24px; }
+
+.icon.sprite-volume-up {
+  background-position: -408px -24px; }
+
+.icon.sprite-qrcode {
+  background-position: -432px -24px; }
+
+.icon.sprite-barcode {
+  background-position: -456px -24px; }
+
+.icon.sprite-tag {
+  background-position: 0 -48px; }
+
+.icon.sprite-tags {
+  background-position: -25px -48px; }
+
+.icon.sprite-book {
+  background-position: -48px -48px; }
+
+.icon.sprite-bookmark {
+  background-position: -72px -48px; }
+
+.icon.sprite-print {
+  background-position: -96px -48px; }
+
+.icon.sprite-camera {
+  background-position: -120px -48px; }
+
+.icon.sprite-font {
+  background-position: -144px -48px; }
+
+.icon.sprite-bold {
+  background-position: -167px -48px; }
+
+.icon.sprite-italic {
+  background-position: -192px -48px; }
+
+.icon.sprite-text-height {
+  background-position: -216px -48px; }
+
+.icon.sprite-text-width {
+  background-position: -240px -48px; }
+
+.icon.sprite-align-left {
+  background-position: -264px -48px; }
+
+.icon.sprite-align-center {
+  background-position: -288px -48px; }
+
+.icon.sprite-align-right {
+  background-position: -312px -48px; }
+
+.icon.sprite-align-justify {
+  background-position: -336px -48px; }
+
+.icon.sprite-list {
+  background-position: -360px -48px; }
+
+.icon.sprite-indent-left {
+  background-position: -384px -48px; }
+
+.icon.sprite-indent-right {
+  background-position: -408px -48px; }
+
+.icon.sprite-facetime-video {
+  background-position: -432px -48px; }
+
+.icon.sprite-picture {
+  background-position: -456px -48px; }
+
+.icon.sprite-pencil {
+  background-position: 0 -72px; }
+
+.icon.sprite-map-marker {
+  background-position: -24px -72px; }
+
+.icon.sprite-adjust {
+  background-position: -48px -72px; }
+
+.icon.sprite-tint {
+  background-position: -72px -72px; }
+
+.icon.sprite-edit {
+  background-position: -96px -72px; }
+
+.icon.sprite-share {
+  background-position: -120px -72px; }
+
+.icon.sprite-check {
+  background-position: -144px -72px; }
+
+.icon.sprite-move {
+  background-position: -168px -72px; }
+
+.icon.sprite-step-backward {
+  background-position: -192px -72px; }
+
+.icon.sprite-fast-backward {
+  background-position: -216px -72px; }
+
+.icon.sprite-backward {
+  background-position: -240px -72px; }
+
+.icon.sprite-play {
+  background-position: -264px -72px; }
+
+.icon.sprite-pause {
+  background-position: -288px -72px; }
+
+.icon.sprite-stop {
+  background-position: -312px -72px; }
+
+.icon.sprite-forward {
+  background-position: -336px -72px; }
+
+.icon.sprite-fast-forward {
+  background-position: -360px -72px; }
+
+.icon.sprite-step-forward {
+  background-position: -384px -72px; }
+
+.icon.sprite-eject {
+  background-position: -408px -72px; }
+
+.icon.sprite-chevron-left {
+  background-position: -432px -72px; }
+
+.icon.sprite-chevron-right {
+  background-position: -456px -72px; }
+
+.icon.sprite-plus-sign {
+  background-position: 0 -96px; }
+
+.icon.sprite-minus-sign {
+  background-position: -24px -96px; }
+
+.icon.sprite-remove-sign {
+  background-position: -48px -96px; }
+
+.icon.sprite-ok-sign {
+  background-position: -72px -96px; }
+
+.icon.sprite-question-sign {
+  background-position: -96px -96px; }
+
+.icon.sprite-info-sign {
+  background-position: -120px -96px; }
+
+.icon.sprite-screenshot {
+  background-position: -144px -96px; }
+
+.icon.sprite-remove-circle {
+  background-position: -168px -96px; }
+
+.icon.sprite-ok-circle {
+  background-position: -192px -96px; }
+
+.icon.sprite-ban-circle {
+  background-position: -216px -96px; }
+
+.icon.sprite-arrow-left {
+  background-position: -240px -96px; }
+
+.icon.sprite-arrow-right {
+  background-position: -264px -96px; }
+
+.icon.sprite-arrow-up {
+  background-position: -289px -96px; }
+
+.icon.sprite-arrow-down {
+  background-position: -312px -96px; }
+
+.icon.sprite-share-alt {
+  background-position: -336px -96px; }
+
+.icon.sprite-resize-full {
+  background-position: -360px -96px; }
+
+.icon.sprite-resize-small {
+  background-position: -384px -96px; }
+
+.icon.sprite-plus {
+  background-position: -408px -96px; }
+
+.icon.sprite-minus {
+  background-position: -433px -96px; }
+
+.icon.sprite-asterisk {
+  background-position: -456px -96px; }
+
+.icon.sprite-exclamation-sign {
+  background-position: 0 -120px; }
+
+.icon.sprite-gift {
+  background-position: -24px -120px; }
+
+.icon.sprite-leaf {
+  background-position: -48px -120px; }
+
+.icon.sprite-fire {
+  background-position: -72px -120px; }
+
+.icon.sprite-eye-open {
+  background-position: -96px -120px; }
+
+.icon.sprite-eye-close {
+  background-position: -120px -120px; }
+
+.icon.sprite-warning-sign {
+  background-position: -144px -120px; }
+
+.icon.sprite-plane {
+  background-position: -168px -120px; }
+
+.icon.sprite-calendar {
+  background-position: -192px -120px; }
+
+.icon.sprite-random {
+  width: 16px;
+  background-position: -216px -120px; }
+
+.icon.sprite-comment {
+  background-position: -240px -120px; }
+
+.icon.sprite-magnet {
+  background-position: -264px -120px; }
+
+.icon.sprite-chevron-up {
+  background-position: -288px -120px; }
+
+.icon.sprite-chevron-down {
+  background-position: -313px -119px; }
+
+.icon.sprite-retweet {
+  background-position: -336px -120px; }
+
+.icon.sprite-shopping-cart {
+  background-position: -360px -120px; }
+
+.icon.sprite-folder-close {
+  width: 16px;
+  background-position: -384px -120px; }
+
+.icon.sprite-folder-open {
+  width: 16px;
+  background-position: -408px -120px; }
+
+.icon.sprite-resize-vertical {
+  background-position: -432px -119px; }
+
+.icon.sprite-resize-horizontal {
+  background-position: -456px -118px; }
+
+.icon.sprite-hdd {
+  background-position: 0 -144px; }
+
+.icon.sprite-bullhorn {
+  background-position: -24px -144px; }
+
+.icon.sprite-bell {
+  background-position: -48px -144px; }
+
+.icon.sprite-certificate {
+  background-position: -72px -144px; }
+
+.icon.sprite-thumbs-up {
+  background-position: -96px -144px; }
+
+.icon.sprite-thumbs-down {
+  background-position: -120px -144px; }
+
+.icon.sprite-hand-right {
+  background-position: -144px -144px; }
+
+.icon.sprite-hand-left {
+  background-position: -168px -144px; }
+
+.icon.sprite-hand-up {
+  background-position: -192px -144px; }
+
+.icon.sprite-hand-down {
+  background-position: -216px -144px; }
+
+.icon.sprite-circle-arrow-right {
+  background-position: -240px -144px; }
+
+.icon.sprite-circle-arrow-left {
+  background-position: -264px -144px; }
+
+.icon.sprite-circle-arrow-up {
+  background-position: -288px -144px; }
+
+.icon.sprite-circle-arrow-down {
+  background-position: -312px -144px; }
+
+.icon.sprite-globe {
+  background-position: -336px -144px; }
+
+.icon.sprite-wrench {
+  background-position: -360px -144px; }
+
+.icon.sprite-tasks {
+  background-position: -384px -144px; }
+
+.icon.sprite-filter {
+  background-position: -408px -144px; }
+
+.icon.sprite-briefcase {
+  background-position: -432px -144px; }
+
+.icon.sprite-fullscreen {
+  background-position: -456px -144px; }
+
+
+.maskicon.sprite-glass, .maskicon-alpha.sprite-glass {
+  -webkit-mask-position: 0      0; }
+
+.maskicon.sprite-music, .maskicon-alpha.sprite-music {
+  -webkit-mask-position: -24px 0; }
+
+.maskicon.sprite-search, .maskicon-alpha.sprite-search {
+  -webkit-mask-position: -48px 0; }
+
+.maskicon.sprite-envelope, .maskicon-alpha.sprite-envelope {
+  -webkit-mask-position: -72px 0; }
+
+.maskicon.sprite-heart, .maskicon-alpha.sprite-heart {
+  -webkit-mask-position: -96px 0; }
+
+.maskicon.sprite-star, .maskicon-alpha.sprite-star {
+  -webkit-mask-position: -120px 0; }
+
+.maskicon.sprite-star-empty, .maskicon-alpha.sprite-star-empty {
+  -webkit-mask-position: -144px 0; }
+
+.maskicon.sprite-user, .maskicon-alpha.sprite-user {
+  -webkit-mask-position: -168px 0; }
+
+.maskicon.sprite-film, .maskicon-alpha.sprite-film {
+  -webkit-mask-position: -192px 0; }
+
+.maskicon.sprite-th-large, .maskicon-alpha.sprite-th-large {
+  -webkit-mask-position: -216px 0; }
+
+.maskicon.sprite-th, .maskicon-alpha.sprite-th {
+  -webkit-mask-position: -240px 0; }
+
+.maskicon.sprite-th-list, .maskicon-alpha.sprite-th-list {
+  -webkit-mask-position: -264px 0; }
+
+.maskicon.sprite-ok, .maskicon-alpha.sprite-ok {
+  -webkit-mask-position: -288px 0; }
+
+.maskicon.sprite-remove, .maskicon-alpha.sprite-remove {
+  -webkit-mask-position: -312px 0; }
+
+.maskicon.sprite-zoom-in, .maskicon-alpha.sprite-zoom-in {
+  -webkit-mask-position: -336px 0; }
+
+.maskicon.sprite-zoom-out, .maskicon-alpha.sprite-zoom-out {
+  -webkit-mask-position: -360px 0; }
+
+.maskicon.sprite-off, .maskicon-alpha.sprite-off {
+  -webkit-mask-position: -384px 0; }
+
+.maskicon.sprite-signal, .maskicon-alpha.sprite-signal {
+  -webkit-mask-position: -408px 0; }
+
+.maskicon.sprite-cog, .maskicon-alpha.sprite-cog {
+  -webkit-mask-position: -432px 0; }
+
+.maskicon.sprite-trash, .maskicon-alpha.sprite-trash {
+  -webkit-mask-position: -456px 0; }
+
+.maskicon.sprite-home, .maskicon-alpha.sprite-home {
+  -webkit-mask-position: 0 -24px; }
+
+.maskicon.sprite-file, .maskicon-alpha.sprite-file {
+  -webkit-mask-position: -24px -24px; }
+
+.maskicon.sprite-time, .maskicon-alpha.sprite-time {
+  -webkit-mask-position: -48px -24px; }
+
+.maskicon.sprite-road, .maskicon-alpha.sprite-road {
+  -webkit-mask-position: -72px -24px; }
+
+.maskicon.sprite-download-alt, .maskicon-alpha.sprite-download-alt {
+  -webkit-mask-position: -96px -24px; }
+
+.maskicon.sprite-download, .maskicon-alpha.sprite-download {
+  -webkit-mask-position: -120px -24px; }
+
+.maskicon.sprite-upload, .maskicon-alpha.sprite-upload {
+  -webkit-mask-position: -144px -24px; }
+
+.maskicon.sprite-inbox, .maskicon-alpha.sprite-inbox {
+  -webkit-mask-position: -168px -24px; }
+
+.maskicon.sprite-play-circle, .maskicon-alpha.sprite-play-circle {
+  -webkit-mask-position: -192px -24px; }
+
+.maskicon.sprite-repeat, .maskicon-alpha.sprite-repeat {
+  -webkit-mask-position: -216px -24px; }
+
+.maskicon.sprite-refresh, .maskicon-alpha.sprite-refresh {
+  -webkit-mask-position: -240px -24px; }
+
+.maskicon.sprite-list-alt, .maskicon-alpha.sprite-list-alt {
+  -webkit-mask-position: -264px -24px; }
+
+.maskicon.sprite-lock, .maskicon-alpha.sprite-lock {
+  -webkit-mask-position: -287px -24px; }
+
+.maskicon.sprite-flag, .maskicon-alpha.sprite-flag {
+  -webkit-mask-position: -312px -24px; }
+
+.maskicon.sprite-headphones, .maskicon-alpha.sprite-headphones {
+  -webkit-mask-position: -336px -24px; }
+
+.maskicon.sprite-volume-off, .maskicon-alpha.sprite-volume-off {
+  -webkit-mask-position: -360px -24px; }
+
+.maskicon.sprite-volume-down, .maskicon-alpha.sprite-volume-down {
+  -webkit-mask-position: -384px -24px; }
+
+.maskicon.sprite-volume-up, .maskicon-alpha.sprite-volume-up {
+  -webkit-mask-position: -408px -24px; }
+
+.maskicon.sprite-qrcode, .maskicon-alpha.sprite-qrcode {
+  -webkit-mask-position: -432px -24px; }
+
+.maskicon.sprite-barcode, .maskicon-alpha.sprite-barcode {
+  -webkit-mask-position: -456px -24px; }
+
+.maskicon.sprite-tag, .maskicon-alpha.sprite-tag {
+  -webkit-mask-position: 0 -48px; }
+
+.maskicon.sprite-tags, .maskicon-alpha.sprite-tags {
+  -webkit-mask-position: -25px -48px; }
+
+.maskicon.sprite-book, .maskicon-alpha.sprite-book {
+  -webkit-mask-position: -48px -48px; }
+
+.maskicon.sprite-bookmark, .maskicon-alpha.sprite-bookmark {
+  -webkit-mask-position: -72px -48px; }
+
+.maskicon.sprite-print, .maskicon-alpha.sprite-print {
+  -webkit-mask-position: -96px -48px; }
+
+.maskicon.sprite-camera, .maskicon-alpha.sprite-camera {
+  -webkit-mask-position: -120px -48px; }
+
+.maskicon.sprite-font, .maskicon-alpha.sprite-font {
+  -webkit-mask-position: -144px -48px; }
+
+.maskicon.sprite-bold, .maskicon-alpha.sprite-bold {
+  -webkit-mask-position: -167px -48px; }
+
+.maskicon.sprite-italic, .maskicon-alpha.sprite-italic {
+  -webkit-mask-position: -192px -48px; }
+
+.maskicon.sprite-text-height, .maskicon-alpha.sprite-text-height {
+  -webkit-mask-position: -216px -48px; }
+
+.maskicon.sprite-text-width, .maskicon-alpha.sprite-text-width {
+  -webkit-mask-position: -240px -48px; }
+
+.maskicon.sprite-align-left, .maskicon-alpha.sprite-align-left {
+  -webkit-mask-position: -264px -48px; }
+
+.maskicon.sprite-align-center, .maskicon-alpha.sprite-align-center {
+  -webkit-mask-position: -288px -48px; }
+
+.maskicon.sprite-align-right, .maskicon-alpha.sprite-align-right {
+  -webkit-mask-position: -312px -48px; }
+
+.maskicon.sprite-align-justify, .maskicon-alpha.sprite-align-justify {
+  -webkit-mask-position: -336px -48px; }
+
+.maskicon.sprite-list, .maskicon-alpha.sprite-list {
+  -webkit-mask-position: -360px -48px; }
+
+.maskicon.sprite-indent-left, .maskicon-alpha.sprite-indent-left {
+  -webkit-mask-position: -384px -48px; }
+
+.maskicon.sprite-indent-right, .maskicon-alpha.sprite-indent-right {
+  -webkit-mask-position: -408px -48px; }
+
+.maskicon.sprite-facetime-video, .maskicon-alpha.sprite-facetime-video {
+  -webkit-mask-position: -432px -48px; }
+
+.maskicon.sprite-picture, .maskicon-alpha.sprite-picture {
+  -webkit-mask-position: -456px -48px; }
+
+.maskicon.sprite-pencil, .maskicon-alpha.sprite-pencil {
+  -webkit-mask-position: 0 -72px; }
+
+.maskicon.sprite-map-marker, .maskicon-alpha.sprite-map-marker {
+  -webkit-mask-position: -24px -72px; }
+
+.maskicon.sprite-adjust, .maskicon-alpha.sprite-adjust {
+  -webkit-mask-position: -48px -72px; }
+
+.maskicon.sprite-tint, .maskicon-alpha.sprite-tint {
+  -webkit-mask-position: -72px -72px; }
+
+.maskicon.sprite-edit, .maskicon-alpha.sprite-edit {
+  -webkit-mask-position: -96px -72px; }
+
+.maskicon.sprite-share, .maskicon-alpha.sprite-share {
+  -webkit-mask-position: -120px -72px; }
+
+.maskicon.sprite-check, .maskicon-alpha.sprite-check {
+  -webkit-mask-position: -144px -72px; }
+
+.maskicon.sprite-move, .maskicon-alpha.sprite-move {
+  -webkit-mask-position: -168px -72px; }
+
+.maskicon.sprite-step-backward, .maskicon-alpha.sprite-step-backward {
+  -webkit-mask-position: -192px -72px; }
+
+.maskicon.sprite-fast-backward, .maskicon-alpha.sprite-fast-backward {
+  -webkit-mask-position: -216px -72px; }
+
+.maskicon.sprite-backward, .maskicon-alpha.sprite-backward {
+  -webkit-mask-position: -240px -72px; }
+
+.maskicon.sprite-play, .maskicon-alpha.sprite-play {
+  -webkit-mask-position: -264px -72px; }
+
+.maskicon.sprite-pause, .maskicon-alpha.sprite-pause {
+  -webkit-mask-position: -288px -72px; }
+
+.maskicon.sprite-stop, .maskicon-alpha.sprite-stop {
+  -webkit-mask-position: -312px -72px; }
+
+.maskicon.sprite-forward, .maskicon-alpha.sprite-forward {
+  -webkit-mask-position: -336px -72px; }
+
+.maskicon.sprite-fast-forward, .maskicon-alpha.sprite-fast-forward {
+  -webkit-mask-position: -360px -72px; }
+
+.maskicon.sprite-step-forward, .maskicon-alpha.sprite-step-forward {
+  -webkit-mask-position: -384px -72px; }
+
+.maskicon.sprite-eject, .maskicon-alpha.sprite-eject {
+  -webkit-mask-position: -408px -72px; }
+
+.maskicon.sprite-chevron-left, .maskicon-alpha.sprite-chevron-left {
+  -webkit-mask-position: -432px -72px; }
+
+.maskicon.sprite-chevron-right, .maskicon-alpha.sprite-chevron-right {
+  -webkit-mask-position: -456px -72px; }
+
+.maskicon.sprite-plus-sign, .maskicon-alpha.sprite-plus-sign {
+  -webkit-mask-position: 0 -96px; }
+
+.maskicon.sprite-minus-sign, .maskicon-alpha.sprite-minus-sign {
+  -webkit-mask-position: -24px -96px; }
+
+.maskicon.sprite-remove-sign, .maskicon-alpha.sprite-remove-sign {
+  -webkit-mask-position: -48px -96px; }
+
+.maskicon.sprite-ok-sign, .maskicon-alpha.sprite-ok-sign {
+  -webkit-mask-position: -72px -96px; }
+
+.maskicon.sprite-question-sign, .maskicon-alpha.sprite-question-sign {
+  -webkit-mask-position: -96px -96px; }
+
+.maskicon.sprite-info-sign, .maskicon-alpha.sprite-info-sign {
+  -webkit-mask-position: -120px -96px; }
+
+.maskicon.sprite-screenshot, .maskicon-alpha.sprite-screenshot {
+  -webkit-mask-position: -144px -96px; }
+
+.maskicon.sprite-remove-circle, .maskicon-alpha.sprite-remove-circle {
+  -webkit-mask-position: -168px -96px; }
+
+.maskicon.sprite-ok-circle, .maskicon-alpha.sprite-ok-circle {
+  -webkit-mask-position: -192px -96px; }
+
+.maskicon.sprite-ban-circle, .maskicon-alpha.sprite-ban-circle {
+  -webkit-mask-position: -216px -96px; }
+
+.maskicon.sprite-arrow-left, .maskicon-alpha.sprite-arrow-left {
+  -webkit-mask-position: -240px -96px; }
+
+.maskicon.sprite-arrow-right, .maskicon-alpha.sprite-arrow-right {
+  -webkit-mask-position: -264px -96px; }
+
+.maskicon.sprite-arrow-up, .maskicon-alpha.sprite-arrow-up {
+  -webkit-mask-position: -289px -96px; }
+
+.maskicon.sprite-arrow-down, .maskicon-alpha.sprite-arrow-down {
+  -webkit-mask-position: -312px -96px; }
+
+.maskicon.sprite-share-alt, .maskicon-alpha.sprite-share-alt {
+  -webkit-mask-position: -336px -96px; }
+
+.maskicon.sprite-resize-full, .maskicon-alpha.sprite-resize-full {
+  -webkit-mask-position: -360px -96px; }
+
+.maskicon.sprite-resize-small, .maskicon-alpha.sprite-resize-small {
+  -webkit-mask-position: -384px -96px; }
+
+.maskicon.sprite-plus, .maskicon-alpha.sprite-plus {
+  -webkit-mask-position: -408px -96px; }
+
+.maskicon.sprite-minus, .maskicon-alpha.sprite-minus {
+  -webkit-mask-position: -433px -96px; }
+
+.maskicon.sprite-asterisk, .maskicon-alpha.sprite-asterisk {
+  -webkit-mask-position: -456px -96px; }
+
+.maskicon.sprite-exclamation-sign, .maskicon-alpha.sprite-exclamation-sign {
+  -webkit-mask-position: 0 -120px; }
+
+.maskicon.sprite-gift, .maskicon-alpha.sprite-gift {
+  -webkit-mask-position: -24px -120px; }
+
+.maskicon.sprite-leaf, .maskicon-alpha.sprite-leaf {
+  -webkit-mask-position: -48px -120px; }
+
+.maskicon.sprite-fire, .maskicon-alpha.sprite-fire {
+  -webkit-mask-position: -72px -120px; }
+
+.maskicon.sprite-eye-open, .maskicon-alpha.sprite-eye-open {
+  -webkit-mask-position: -96px -120px; }
+
+.maskicon.sprite-eye-close, .maskicon-alpha.sprite-eye-close {
+  -webkit-mask-position: -120px -120px; }
+
+.maskicon.sprite-warning-sign, .maskicon-alpha.sprite-warning-sign {
+  -webkit-mask-position: -144px -120px; }
+
+.maskicon.sprite-plane, .maskicon-alpha.sprite-plane {
+  -webkit-mask-position: -168px -120px; }
+
+.maskicon.sprite-calendar, .maskicon-alpha.sprite-calendar {
+  -webkit-mask-position: -192px -120px; }
+
+.maskicon.sprite-random, .maskicon-alpha.sprite-random {
+  width: 16px;
+  -webkit-mask-position: -216px -120px; }
+
+.maskicon.sprite-comment, .maskicon-alpha.sprite-comment {
+  -webkit-mask-position: -240px -120px; }
+
+.maskicon.sprite-magnet, .maskicon-alpha.sprite-magnet {
+  -webkit-mask-position: -264px -120px; }
+
+.maskicon.sprite-chevron-up, .maskicon-alpha.sprite-chevron-up {
+  -webkit-mask-position: -288px -120px; }
+
+.maskicon.sprite-chevron-down, .maskicon-alpha.sprite-chevron-down {
+  -webkit-mask-position: -313px -119px; }
+
+.maskicon.sprite-retweet, .maskicon-alpha.sprite-retweet {
+  -webkit-mask-position: -336px -120px; }
+
+.maskicon.sprite-shopping-cart, .maskicon-alpha.sprite-shopping-cart {
+  -webkit-mask-position: -360px -120px; }
+
+.maskicon.sprite-folder-close, .maskicon-alpha.sprite-folder-close {
+  width: 16px;
+  -webkit-mask-position: -384px -120px; }
+
+.maskicon.sprite-folder-open, .maskicon-alpha.sprite-folder-open {
+  width: 16px;
+  -webkit-mask-position: -408px -120px; }
+
+.maskicon.sprite-resize-vertical, .maskicon-alpha.sprite-resize-vertical {
+  -webkit-mask-position: -432px -119px; }
+
+.maskicon.sprite-resize-horizontal, .maskicon-alpha.sprite-resize-horizontal {
+  -webkit-mask-position: -456px -118px; }
+
+.maskicon.sprite-hdd, .maskicon-alpha.sprite-hdd {
+  -webkit-mask-position: 0 -144px; }
+
+.maskicon.sprite-bullhorn, .maskicon-alpha.sprite-bullhorn {
+  -webkit-mask-position: -24px -144px; }
+
+.maskicon.sprite-bell, .maskicon-alpha.sprite-bell {
+  -webkit-mask-position: -48px -144px; }
+
+.maskicon.sprite-certificate, .maskicon-alpha.sprite-certificate {
+  -webkit-mask-position: -72px -144px; }
+
+.maskicon.sprite-thumbs-up, .maskicon-alpha.sprite-thumbs-up {
+  -webkit-mask-position: -96px -144px; }
+
+.maskicon.sprite-thumbs-down, .maskicon-alpha.sprite-thumbs-down {
+  -webkit-mask-position: -120px -144px; }
+
+.maskicon.sprite-hand-right, .maskicon-alpha.sprite-hand-right {
+  -webkit-mask-position: -144px -144px; }
+
+.maskicon.sprite-hand-left, .maskicon-alpha.sprite-hand-left {
+  -webkit-mask-position: -168px -144px; }
+
+.maskicon.sprite-hand-up, .maskicon-alpha.sprite-hand-up {
+  -webkit-mask-position: -192px -144px; }
+
+.maskicon.sprite-hand-down, .maskicon-alpha.sprite-hand-down {
+  -webkit-mask-position: -216px -144px; }
+
+.maskicon.sprite-circle-arrow-right, .maskicon-alpha.sprite-circle-arrow-right {
+  -webkit-mask-position: -240px -144px; }
+
+.maskicon.sprite-circle-arrow-left, .maskicon-alpha.sprite-circle-arrow-left {
+  -webkit-mask-position: -264px -144px; }
+
+.maskicon.sprite-circle-arrow-up, .maskicon-alpha.sprite-circle-arrow-up {
+  -webkit-mask-position: -288px -144px; }
+
+.maskicon.sprite-circle-arrow-down, .maskicon-alpha.sprite-circle-arrow-down {
+  -webkit-mask-position: -312px -144px; }
+
+.maskicon.sprite-globe, .maskicon-alpha.sprite-globe {
+  -webkit-mask-position: -336px -144px; }
+
+.maskicon.sprite-wrench, .maskicon-alpha.sprite-wrench {
+  -webkit-mask-position: -360px -144px; }
+
+.maskicon.sprite-tasks, .maskicon-alpha.sprite-tasks {
+  -webkit-mask-position: -384px -144px; }
+
+.maskicon.sprite-filter, .maskicon-alpha.sprite-filter {
+  -webkit-mask-position: -408px -144px; }
+
+.maskicon.sprite-briefcase, .maskicon-alpha.sprite-briefcase {
+  -webkit-mask-position: -432px -144px; }
+
+.maskicon.sprite-fullscreen, .maskicon-alpha.sprite-fullscreen {
+  -webkit-mask-position: -456px -144px; }

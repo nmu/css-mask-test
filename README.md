@@ -1,4 +1,5 @@
-css-mask-test
-=============
+`./run.sh`
 
-Fiddling with css sprite masks
+open in Chrome: `http://localhost.newokl.com:8000/build/icons.html`
+
+stress tester hackily modified from: https://github.com/andyedinborough/stress-css/
